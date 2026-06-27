@@ -1,13 +1,13 @@
 # Wind Charge Mod
 
-A Minecraft Java mod built with Forge for Minecraft 1.20.1.
+A Minecraft Fabric mod for Minecraft 1.21.11.
 
 ## Setup
 
-1. **Install Java 17** - This mod requires Java 17
+1. **Install Java 21** - This mod requires Java 21
 2. **Run the setup**:
    ```bash
-   ./gradlew genEclipseRuns
+   ./gradlew genSources
    ```
 
 3. **Import into IDE**:

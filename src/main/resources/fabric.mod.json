@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "windcharge",
+  "version": "${version}",
+  "name": "Wind Charge",
+  "description": "A Minecraft mod that adds wind-charged items and mechanics.",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {
+    "website": "https://github.com/reinazizzy-lang/Wind-charge",
+    "repo": "https://github.com/reinazizzy-lang/Wind-charge"
+  },
+  "license": "MIT",
+  "icon": "assets/windcharge/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.windcharge.WindChargeMod"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
