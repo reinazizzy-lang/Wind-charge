@@ -1,0 +1,31 @@
+modLoader="javafxmod"
+loaderVersion="[47,)"
+version="1.0.0"
+displayName="Wind Charge"
+logoFile="icon.png"
+credits="Created with Forge"
+authors="Your Name"
+description="A Minecraft mod that adds wind-charged items and mechanics."
+
+[[mods]]
+modId="windcharge"
+version="1.0.0"
+displayName="Wind Charge"
+logoFile="icon.png"
+credits="Created with Forge"
+authors="Your Name"
+description="A Minecraft mod that adds wind-charged items and mechanics."
+
+[[dependencies.windcharge]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.windcharge]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
