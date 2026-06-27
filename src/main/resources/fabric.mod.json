@@ -3,7 +3,7 @@
   "id": "windcharge",
   "version": "${version}",
   "name": "Wind Charge",
-  "description": "A Minecraft mod that adds wind-charged items and mechanics.",
+  "description": "Auto-jump client-side mod for Wind Charge items with customizable settings.",
   "authors": [
     "Your Name"
   ],
@@ -13,10 +13,13 @@
   },
   "license": "MIT",
   "icon": "assets/windcharge/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "com.windcharge.WindChargeMod"
+    ],
+    "client": [
+      "com.windcharge.client.WindChargeClientMod"
     ]
   },
   "mixins": [

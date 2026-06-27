@@ -1,6 +1,7 @@
 {
+  "version": 1,
   "pack": {
     "pack_format": 32,
-    "description": "Wind Charge Mod Resources"
+    "description": "Wind Charge Mod"
   }
 }
